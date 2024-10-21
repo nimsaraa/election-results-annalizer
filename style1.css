@@ -1,0 +1,87 @@
+/* Fix the page size to 1920x1080 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Container to fix the size */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 1920px; /* Fixed width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Content area with centering */
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+/* Form styling */
+form {
+  background: white; /* Background color of the form */
+  padding: 20px; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for better visibility */
+  display: inline-block; /* Ensure the form size adjusts to its content */
+  width: 100%;
+  max-width: 500px; /* Maximum width of the form */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 10px;
+  height: 80px; /* Adjust height as needed */
+  background-color: red; /* Set footer background color */
+  color: white; /* Text color for better contrast */
+  width: 100%; /* Full width of the viewport */
+  position: absolute; /* Absolute position */
+  bottom: 0; /* Stick to the bottom */
+}
+
+/* Image styling */
+img {
+  float: right;
+  border-radius: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.tagline {
+  color: blueviolet;
+  font-style: italic;
+}
+
+.pricetopic {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.offers {
+  color: black;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
